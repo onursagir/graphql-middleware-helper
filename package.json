@@ -1,10 +1,14 @@
 {
   "name": "graphql-middleware-helper",
-  "version": "0.0.1",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:onursagir/graphql-middleware-helper.git",
   "author": "Mehmet Onur Sagir <onuur.s@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@types/minimatch": "^3.0.3",
     "minimatch": "^3.0.4",
