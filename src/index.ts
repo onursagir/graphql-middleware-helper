@@ -1,6 +1,7 @@
+import merge from 'lodash.merge';
 import minimatch from 'minimatch';
 
-type Resolver = Record<string, Object>
+type Resolver = Object
 
 type NestedResolver = Resolver | Record<string, Resolver>
 
@@ -69,10 +70,7 @@ const middlewareHelper: MiddlewareHelper = (args) => {
       [key]: makeMiddleware({ ...args, resolver: value, path: [key] }),
     }), {});
 
-    return {
-      ...accA,
-      ...resolverWithMiddleware,
-    };
+    return merge(accA, resolverWithMiddleware);
   }, {});
 };
 
