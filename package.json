@@ -1,6 +1,6 @@
 {
   "name": "graphql-middleware-helper",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "git@github.com:onursagir/graphql-middleware-helper.git",
