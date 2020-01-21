@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc"
   },
+  "keywords": ["graphQL", "middleware"],
   "dependencies": {
     "@types/lodash.merge": "^4.6.6",
     "@types/minimatch": "^3.0.3",
