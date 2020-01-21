@@ -1,6 +1,6 @@
 {
   "name": "graphql-middleware-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "git@github.com:onursagir/graphql-middleware-helper.git",
@@ -9,8 +9,11 @@
   "scripts": {
     "build": "tsc"
   },
+  "keywords": ["graphQL", "middleware"],
   "dependencies": {
+    "@types/lodash.merge": "^4.6.6",
     "@types/minimatch": "^3.0.3",
+    "lodash.merge": "^4.6.2",
     "minimatch": "^3.0.4",
     "typescript": "^3.7.4"
   },
